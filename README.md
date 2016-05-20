@@ -21,6 +21,12 @@ creat file "tsconfig.js" with content:
     }    
 }
 
-6) Build typescript
+6) Compile TypeScript to JavaScript
 
-press "Ctrl+Shift+B" in VS code
+press "Ctrl+Shift+B" in VS code.  
+We get this warning telling “No task runner configured”.
+Then click on “Configure Task Runner” to create tasks.json file which is collection of Tasks for various things TypeScript, Gulp, Grunt etc.
+
+7) Using lite-server for running web application in VS code
+
+$ npm install -g lite-server
