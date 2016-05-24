@@ -60,9 +60,7 @@ for (var _d = 0, numbers_1 = numbers; _d < numbers_1.length; _d++) {
     var num_1 = numbers_1[_d];
     console.log(num_1);
 }
-will;
-be;
-generated;
+//will be generated as:
 var numbers = [1, 2, 3];
 for (var _i = 0; _i < numbers.length; _i++) {
     var num = numbers[_i];
