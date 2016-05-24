@@ -168,8 +168,8 @@ In TypeScript, you can gather these arguments together into a variable:
  */
 function buildName(firstName) {
     var restOfName = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        restOfName[_i - 1] = arguments[_i];
+    for (var _a = 1; _a < arguments.length; _a++) {
+        restOfName[_a - 1] = arguments[_a];
     }
     return firstName + " " + restOfName.join(" ");
 }
@@ -184,8 +184,8 @@ The ellipsis is also used in the type of the function with rest parameters:
  */
 function buildName(firstName) {
     var restOfName = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        restOfName[_i - 1] = arguments[_i];
+    for (var _a = 1; _a < arguments.length; _a++) {
+        restOfName[_a - 1] = arguments[_a];
     }
     return firstName + " " + restOfName.join(" ");
 }
