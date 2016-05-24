@@ -1,5 +1,5 @@
 # learn_typescript
-1) Install Node Package Manage (npm) if you doesn't not install
+1) Install Node Package Manage (npm)
 
 2) install typescript
 type this command in cmd: "$ npm install -g typescript"
@@ -29,4 +29,7 @@ Then click on “Configure Task Runner” to create tasks.json file which is col
 
 7) Using lite-server for running web application in VS code
 
-$ npm install -g lite-server
+$ npm install -g lite-server   
+
+8) Run lite-server
+$ lite-server 
